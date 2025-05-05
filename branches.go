@@ -73,8 +73,6 @@ func main() {
 		log.Fatalf("Нет веток на origin")
 	}
 
-	fmt.Println(branches)
-
 	// 4. Выбор ветки
 	var selected string
 
